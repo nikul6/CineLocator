@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "latitude": 19.0760,
+      "longitude": 72.8777,
+      "theatreName": "IMAX Wadala",
+      "theatreAddress": "Galleria Shopping Complex, Dr. Annie Besant Road, Wadala",
+      "numberOfStars": 4.5,
+      "rating": 2345,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOixRruIzH_LQGwvIpX0R2qDk0PSCVfatI_csmV=s680-w680-h510",
+      "showtimes": [
+        {
+          "movie": "Furiosa: A Mad Max Saga",
+          "timings": [
+            {
+              "time": "11:00 AM",
+              "price": 220
+            },
+            {
+              "time": "02:00 PM",
+              "price": 280 
+            },
+            {
+              "time": "06:00 PM",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "movie": "Naach Ga Ghuma",
+          "timings": [
+            {
+              "time": "01:00 PM",
+              "price": 150
+            },
+            {
+              "time": "04:00 PM",
+              "price": 170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "latitude": 18.9647,
+      "longitude": 72.8267,
+      "theatreName": "Cinepolis Andheri",
+      "theatreAddress": "Infinity Mall, Link Road, Andheri West",
+      "numberOfStars": 4.2,
+      "rating": 1876,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNTPkXUd1nxiBCTRvKVoYp5sNZUA0RHmh1BhQyS=s680-w680-h510",
+      "showtimes": [
+        {
+          "movie": "Srikanth",
+          "timings": [
+            {
+              "time": "10:30 AM",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "movie": "Kingdom of the Planet of the Apes",
+          "timings": [
+            {
+              "time": "12:00 PM", 
+              "price": 200 
+            },
+            {
+              "time": "03:00 PM",
+              "price": 220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "latitude": 19.1106,
+      "longitude": 72.8312,
+      "theatreName": "PVR Lower Parel",
+      "theatreAddress": "Palladium Mall, High Street Phoenix, Lower Parel",
+      "numberOfStars": 4.8,
+      "rating": 3123,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPDcjZlubIXkb9NEGO-fcUtEdSmcKlD5LMHdZxy=s680-w680-h510",
+      "showtimes": [
+        {
+          "movie": "The Garfield Movie",
+          "timings": [
+            {
+              "time": "11:15 AM",
+              "price": 120
+            },
+            {
+              "time": "02:15 PM",
+              "price": 140
+            },
+            {
+              "time": "05:15 PM",
+              "price": 160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "latitude": 19.0302,
+      "longitude": 72.8784,
+      "theatreName": "Inox R-City Ghatkopar",
+      "theatreAddress": "R City Mall, Ghatkopar West",
+      "numberOfStars": 4.3,
+      "rating": 1987,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMqpV-djCZRA6DaSJuT2ddjcymM1HOiBd29A_Nr=s680-w680-h510",
+      "showtimes": [
+        {
+          "movie": "Lightyear",
+          "timings": [
+            {
+              "time": "10:00 AM",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "movie": "Crew",
+          "timings": [
+            {
+              "time": "12:30 PM",
+              "price": 190
+            },
+            {
+              "time": "03:30 PM",
+              "price": 210
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "latitude": 19.060672,
+      "longitude": 72.836589,
+      "theatreName": "PVR Mulund",
+      "theatreAddress": "2nd Floor, R City Mall, Lal Bahadur Shastri Marg, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086",
+      "numberOfStars": 4.2,
+      "rating": 1625,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipOnjmszd1p3BDaCxLI2pyut_Vv-BkFPYadZ23MX=w408-h306-k-no",
+      "showtimes": [
+        {
+          "movie": "Bade Miyan Chote Miyan",
+          "timings": [
+            {
+              "time": "09:30 AM",
+              "price": 160
+            },
+            {
+              "time": "12:30 PM",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "movie": "The Batman",
+          "timings": [
+            {
+              "time": "11:00 AM",
+              "price": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "latitude": 19.1014,
+      "longitude": 72.8354,
+      "theatreName": "Carnival Cinemas: Huma, Kanjurmarg",
+      "theatreAddress": "Huma Mall, LBS Marg, Kanjurmarg West, Mumbai, Maharashtra 400078",
+      "numberOfStars": 4.1,
+      "rating": 1800,
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNXkujFmQ_yZZBB1LV_dBHEUH4xbXxntQat02DJ=w408-h306-k-no",
+      "showtimes": [
+        {
+          "movie": "Kingdom of the Planet of the Apes",
+          "timings": [
+            {
+              "time": "09:00 AM",
+              "price": 160
+            },
+            {
+              "time": "12:00 PM",
+              "price": 180
+            },
+            {
+              "time": "03:00 PM",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "movie": "Maidaan",
+          "timings": [
+            {
+              "time": "10:30 AM",
+              "price": 170
+            }
+          ]
+        }
+      ]
+    }
+]
