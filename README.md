@@ -8,7 +8,6 @@ Open a _new_ terminal from the _root_ of your React Native project. Run the foll
 # using npm
 npx react-native run-android
 ```
-
 ### For iOS
 
 ```bash
