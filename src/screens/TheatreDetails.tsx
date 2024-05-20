@@ -23,10 +23,8 @@ const TheatreDetails = ({ route, navigation }: DetailsScreenProps) => {
         </View>
     );
 
-    return (
-        <View style={styles.container}>
-            <BackButton onPress={() => navigation.goBack()} />
-            <Image source={{ uri: image }} style={styles.image} />
+    const listHeader = () => {
+        return (
             <View style={styles.infoContainer}>
                 <Text style={styles.theatreName}>{theatreName}</Text>
                 <Text style={styles.theatreAddress}>{theatreAddress}</Text>
@@ -35,14 +33,23 @@ const TheatreDetails = ({ route, navigation }: DetailsScreenProps) => {
                     <Text style={styles.rating}>{rating} Ratings</Text>
                 </View>
                 <Text style={styles.showtimesTitle}>Showtimes Today:</Text>
-                <FlatList
-                    data={showtimes}
-                    renderItem={renderShowtimes}
-                    keyExtractor={(item, index) => index.toString()}
-                    showsVerticalScrollIndicator={false}
-                    contentContainerStyle={styles.showtimesList}
-                />
             </View>
+        )
+    }
+
+    return (
+        <View style={styles.container}>
+            <BackButton onPress={() => navigation.goBack()} />
+            <Image source={{ uri: image }} style={styles.image} />
+            <FlatList
+                data={showtimes}
+                ListHeaderComponent={listHeader}
+                renderItem={renderShowtimes}
+                style={{ padding: 10 }}
+                keyExtractor={(item, index) => index.toString()}
+                showsVerticalScrollIndicator={false}
+                contentContainerStyle={styles.showtimesList}
+            />
         </View>
     );
 };
@@ -54,17 +61,17 @@ const styles = StyleSheet.create({
     },
     image: {
         width: '100%',
-        height: 300,
+        height: 250,
         resizeMode: 'cover',
     },
     infoContainer: {
-        padding: 15,
+        padding: 0,
     },
     theatreName: {
         fontSize: 24,
         fontWeight: 'bold',
         marginBottom: 10,
-        color:'#000'
+        color: '#000'
     },
     theatreAddress: {
         fontSize: 16,
@@ -85,7 +92,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 10,
-        color:'#000'
+        color: '#000'
     },
     showtimeItem: {
         marginBottom: 20,
@@ -94,7 +101,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         marginBottom: 10,
-        color:'#000'
+        color: '#000'
     },
     timingItem: {
         flexDirection: 'row',
@@ -102,14 +109,14 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
     timing: {
-        color:'#fff', 
-        padding:5, 
-        backgroundColor:'#000'
+        color: '#fff',
+        padding: 5,
+        backgroundColor: '#000'
     },
     timingPrice: {
         color: '#fff',
-        padding:5, 
-        backgroundColor:'#000'
+        padding: 5,
+        backgroundColor: '#000'
     },
     showtimesList: {
         paddingBottom: 20,
